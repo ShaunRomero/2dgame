@@ -12,7 +12,7 @@ namespace Bombdrop {
         public float FireRate => fireRate;
 
         public virtual void Initialize() {
-            // no-op
+           
         }
 
         public abstract void Fire(Transform firePoint, LayerMask layer);
